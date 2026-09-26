@@ -1,0 +1,6 @@
+{
+  "name": "The Maharashtra King",
+  "description": "Royal Flavours, Authentic Tastes. Experience sizzling tandoori, fragrant biryani, rich curries, and Chinese specialties at The Maharashtra King.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

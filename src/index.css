@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #160204;
+  color: #fbf5ea;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-royal {
+  font-family: var(--font-serif);
+  letter-spacing: 0.02em;
+}
+
+/* Subtle Royal Indian fort-inspired patterned background overlay */
+.bg-royal-pattern {
+  background-color: #1a0305;
+  background-image: radial-gradient(rgba(212, 175, 55, 0.07) 1px, transparent 0), radial-gradient(rgba(212, 175, 55, 0.04) 1px, #160204 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fff2be 0%, #e0b445 40%, #b8860b 80%, #ffd700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to right, #d4af37, #f59e0b, #d4af37) 1;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1a0305;
+}
+::-webkit-scrollbar-thumb {
+  background: #5c1119;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
